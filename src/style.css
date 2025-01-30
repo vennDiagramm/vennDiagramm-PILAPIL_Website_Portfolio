@@ -31,15 +31,21 @@ h2{
 }
 
 nav {
+    flex-direction: row;
     display: flex;
     gap: 20px;
-    position: relative;
+    position: fixed;
 }
 
 nav a {
     text-decoration: none;
     color: inherit;
 }
+
+nav a:hover {
+    color: #004971;
+}
+
 
 /* ////////////////////////////////////////////////////////////////////////// */
 
@@ -54,32 +60,48 @@ main {
     margin: 2% auto;
 }
 
-/* ////////////////////////////////////////////////////////////////////////// */
+hr{
+    border: 0; 
+    height: 1px; 
+    background-image: linear-gradient(to right, #f4f1e8, #6fc7e7, #e69191, #f4f1e8);
+}
 
+/* ////////////////////////////////////////////////////////////////////////// */
 /* Home */
 .home {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 
+.home-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%; 
+}
+
+/* inside-HOME adjustments */
 .inside-HOME {
-    display: flex; 
-    align-items: center; 
-    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .inside-HOME p {
     text-align: justify;
-    flex: 1;  
-    margin-right: 3%;
+    flex: 1;
+    margin-right: 5%;
 }
 
-.profile-image {
-    width: 10%; 
+.inside-HOME img {
+    margin-right: 50%;
+    width: 100%; 
     height: auto;
-
 }
+
 
 /* ////////////////////////////////////////////////////////////////////////// */
 
@@ -89,6 +111,12 @@ main {
     gap: 20px; 
     justify-content: space-between;
     flex-wrap: wrap; 
+}
+
+.credentials-container hr{
+    border: none;
+    height: 0.7%;
+    background-image: linear-gradient(to right, #f0f0f0, #8f8f8f, #f0f0f0);
 }
 
 .skills-box, .achievements-box {
@@ -103,6 +131,18 @@ main {
 .skills-box h3, .achievements-box h3 {
     margin-top: 0;
     flex-wrap: wrap;
+}
+
+.achievements-content {
+    display: flex;
+    flex-direction: column; /* Achievements in a column */
+    gap: 20px;
+}
+
+.achievement {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .skills-box i {
