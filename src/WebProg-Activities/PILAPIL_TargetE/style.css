@@ -1,0 +1,60 @@
+/*RESPONSIBLE FOR KEEPING THE FORMAT*/
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+/*FOR THE SIDE BAR */
+.side-box {
+    width: 250px;
+    background-color: rgb(188, 12, 170);
+}
+
+/*Responsible for holding the little boxes*/
+.main-content {
+    flex: 1;
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*The top box*/
+.top-box {
+    width: 95%;
+    height: 150px;
+    background-color: lightgrey;
+    margin-top: 10px;
+    padding-bottom: 10%;
+}
+
+/*Responsible for holding the little boxes under the top-box*/
+.bottom-content {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: auto;
+}
+
+.left-box, .center-box, .right-box {
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: lightgrey;
+}
+
+
+/*FOR THE FULL WIDTH BOX BELOW*/
+.bottom-box {
+    width: 100%;  
+    background-color:rgb(48, 17, 202);
+    padding: 20px; 
+    box-sizing: border-box;
+  }

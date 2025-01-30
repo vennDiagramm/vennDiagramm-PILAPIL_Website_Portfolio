@@ -1,0 +1,27 @@
+/*RESPONSIBLE FOR KEEPING THE FORMAT*/
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: lightslategray;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+/*FOR THE SIDE BAR */
+.side-box {
+    width: 250px;
+    background-color: rgb(188, 12, 170);
+}
+
+/*FOR THE FULL WIDTH BOX BELOW*/
+.bottom-box {
+    width: 100%; 
+    background-color:rgb(48, 17, 202);
+    padding: 20px; 
+    box-sizing: border-box;
+  }

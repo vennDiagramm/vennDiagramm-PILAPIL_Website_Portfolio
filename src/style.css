@@ -1,0 +1,251 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1e8;
+  }
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* Header */
+header {
+    width: 100%;
+    justify-content: center;
+    align-items: top;
+    display: flex;
+    color: lightslategrey;
+    background-color: #f4f1e89d;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 0.5% 0; 
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* MAIN LOOK */
+main {
+    padding: 3%; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.392); 
+    max-width: 95%; 
+    width: 90%; 
+    text-align: center; 
+    margin: 2% auto;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* Home */
+.home {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.inside-HOME {
+    display: flex; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.inside-HOME p {
+    text-align: justify;
+    flex: 1;  
+    margin-right: 3%;
+}
+
+.profile-image {
+    width: 10%; 
+    height: auto;
+
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* Credentials */
+.credentials-container {
+    display: flex;
+    gap: 20px; 
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.skills-box, .achievements-box {
+    flex: 1;
+    padding: 1.5%;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    background-color: #e8ecf4;
+    max-width: 45%; 
+}
+
+.skills-box h3, .achievements-box h3 {
+    margin-top: 0;
+    flex-wrap: wrap;
+}
+
+.skills-box i {
+    font-size: 250%;
+    margin-inline: 1.5%; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stars i {
+    font-size: 100%;
+    color: gold; 
+    margin: -10% 0;
+}
+
+.skills-box p, .achievements-box p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.achievements-box img {
+    display: flexbox;
+    width: 15%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* Projects */
+.projects {
+    margin: 20px 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: -ms-flexbox;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.learn-more {
+    padding: 10px 20px;
+    background-color: #0073b1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: #005f90;
+}
+
+/* to hide modal */
+#project-details {
+    display: none; 
+}
+
+
+/* Modal */
+.modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    text-align: justify;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.modal-content a {
+    display: block;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* Assignemnts */
+.assignments {
+    padding: 20px;
+}
+
+.assignments-container {
+    display: flex;
+    gap: 20px; 
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* Footer */
+.footer a {
+    color: inherit;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color: #0073b1;
+}
+
+.footer i {
+    margin-right: 5px;
+}
