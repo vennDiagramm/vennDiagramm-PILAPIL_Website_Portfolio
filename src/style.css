@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', fantasy;
     margin: 0;
     padding: 0;
     background-color: #f4f1e8;
@@ -20,6 +20,14 @@ header {
     left: 0;
     z-index: 1000;
     padding: 0.5% 0; 
+}
+
+h1{
+    font-family: 'Papyrus', cursive;
+}
+
+h2{
+    font-family: 'Copperplate', monospace;
 }
 
 nav {
@@ -147,7 +155,7 @@ main {
     padding: 10px;
     padding-bottom: 5%;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #dcf3f6;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -231,6 +239,16 @@ main {
     gap: 20px; 
     justify-content: space-around;
     flex-wrap: wrap; 
+}
+
+.assignment a:hover {
+    color: #001555;
+}
+
+.assignment h3 {
+    color: #003b56;
+    font-style: italic;
+    
 }
 
 /* ////////////////////////////////////////////////////////////////////////// */
