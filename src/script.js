@@ -21,7 +21,7 @@ const projectDetails = {
         githubLink: "https://github.com/vennDiagramm/Galactic-Eco-Guardians"
     },
 
-    project4: {
+    project5: {
         title: "Dormitory Manager for Monterde Apartments - Website",
         description: "A comprehensive web-based solution for property managers at Monterde Apartments to efficiently handle tenants, rooms, payments, and analytics in one centralized platform.",
         githubLink: "https://github.com/vennDiagramm/Monterde_Apartments_Dormitory-Manager"
