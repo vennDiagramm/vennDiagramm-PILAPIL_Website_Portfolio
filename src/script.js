@@ -20,6 +20,12 @@ const projectDetails = {
         description: "A simple game created using Python Turtle. Inspired by the 1978 arcade game created by Tomohiro Nishikado, Space Invaders. The elements of this game incorporates SDG 13: Climate action.",
         githubLink: "https://github.com/vennDiagramm/Galactic-Eco-Guardians"
     },
+
+    project4: {
+        title: "Dormitory Manager for Monterde Apartments - Website",
+        description: "A comprehensive web-based solution for property managers at Monterde Apartments to efficiently handle tenants, rooms, payments, and analytics in one centralized platform.",
+        githubLink: "https://github.com/vennDiagramm/Monterde_Apartments_Dormitory-Manager"
+    },
 };
 
 // Hide the modal on page load
